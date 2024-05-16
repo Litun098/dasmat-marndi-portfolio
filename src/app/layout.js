@@ -1,11 +1,13 @@
-import { Inter } from "next/font/google";
-import "./globals.css";
 import TransitionProvider from "@/components/transitionProvider";
+
+import { Inter } from "next/font/google";
+
+import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Lama Dev Portfolio App",
+  title: "Dasmat Marndi Portfolio",
   description: "The best animated portfolio page",
 };
 
