@@ -1,5 +1,6 @@
 import TransitionProvider from "@/components/transitionProvider";
 
+import Head from 'next/head';
 import { Inter } from "next/font/google";
 
 import "./globals.css";
@@ -16,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
+      <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content={metadata.description} />
@@ -28,7 +29,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
-      </head>
+      </Head>
       <body className={inter.className}>
         <TransitionProvider>{children}</TransitionProvider>
       </body>
