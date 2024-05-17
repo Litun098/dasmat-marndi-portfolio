@@ -35,7 +35,7 @@ const AboutPage = () => {
             {/* BIOGRAPHY IMAGE */}
             <Image
               src="/dasmat.jpg"
-              alt=""
+              alt="Dasmat Marndi About Page"
               width={112}
               height={112}
               className="w-28 h-28 rounded-full object-cover"
