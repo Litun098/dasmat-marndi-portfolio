@@ -29,6 +29,20 @@ export default function RootLayout({ children }) {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
+
+        {/* Open Graph Tags */}
+        <meta property="og:title" content="Dasmat Marndi Portfolio" />
+        <meta property="og:description" content="Personal portfolio page of Dasmat Marndi, showcasing veterinary skills." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://dasmatmarndi.netlify.app/" />
+        <meta property="og:image" content="https://dasmatmarndi.netlify.app/your-image.jpg" />
+
+        {/* Twitter Card Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Dasmat Marndi Portfolio" />
+        <meta name="twitter:description" content="Personal portfolio page of Dasmat Marndi, showcasing veterinary skills." />
+        <meta name="twitter:image" content="https://dasmatmarndi.netlify.app/your-image.jpg" />
+        <meta name="twitter:site" content="@yourTwitterHandle" />
       </Head>
       <body className={inter.className}>
         <TransitionProvider>{children}</TransitionProvider>
