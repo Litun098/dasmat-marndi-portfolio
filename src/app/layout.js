@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Dasmat Marndi Portfolio",
   description: "Personal portfolio page",
-  keywords: "Dasmat Marndi, portfolio, web developer, projects, contact",
+  keywords: "Dasmat Marndi, portfolio, veterinary, trader, contact",
   author: "Dasmat Marndi",
 };
 
